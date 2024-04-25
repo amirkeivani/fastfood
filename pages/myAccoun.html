@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/app.css" />
+    <link rel="stylesheet" href="../styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/myaccount.css" />
+    <link rel="stylesheet" href="../styles/responsive.css" />
+    <title>my Account</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row align-center">
+          <div class="col-md-6">
+            <div class="header__right">
+              <i class="fa-solid fa-truck-fast"></i>
+              <p class="right__title">ارسال رایگان سریع بیش از 200 تومان!</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="header__left">
+              <div class="change-theme">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12.3,4.9c0.4-0.2,0.6-0.7,0.5-1.1S12.2,3,11.7,3C6.8,3.1,3,7.1,3,12c0,5,4,9,9,9c3.8,0,7.1-2.4,8.4-5.9c0.2-0.4,0-0.9-0.4-1.2c-0.4-0.3-0.9-0.2-1.2,0.1c-1,0.9-2.3,1.4-3.7,1.4c-3.1,0-5.7-2.5-5.7-5.7C9.4,7.8,10.5,5.9,12.3,4.9zM15.1,17.4c0.5,0,1,0,1.4-0.1C15.3,18.4,13.7,19,12,19c-3.9,0-7-3.1-7-7c0-2.5,1.4-4.8,3.5-6c-0.7,1.1-1,2.4-1,3.8C7.4,14,10.9,17.4,15.1,17.4z"
+                  ></path>
+                </svg>
+              </div>
+              <ul class="menu">
+                <li class="menu__item">
+                  <div class="page-language">
+                    <span class="menu__link">تومان</span>
+                    <i class="fa-solid fa-angle-down page-language__icon"></i>
+                    <ul class="menu__list">
+                      <li>پوند</li>
+                      <li>یورو</li>
+                      <li>دلار</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link"
+                    ><span class="myAccount"
+                      ><img src="../images/user_icon_2.png" /></span
+                    >حساب من</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-wrapper">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../images/logo.png" class="navbar__image" />
+            </a>
+            <div>
+              <i class="fa-solid fa-bars nav-icon"></i>
+            </div>
+            <div class="navbar-collapse">
+              <ul class="navbar-links">
+                <li class="nav__item">
+                  <a href="../index.html" class="nav__link">صفحه اصلی</a>
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link">درباره</a>
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link">منو</a>
+                </li>
+                <li class="nav__item blog-nav__item">
+                  <a href="" class="nav__link">وبلاگ</a>
+                  <i
+                    class="fa-solid page-language__icon fa-angle-down blog-icon"
+                  ></i>
+                  <ul class="sub_menu">
+                    <li class="sub_menu-item">
+                      <a href="#" class="sub_menu-link">وبلاگ ها</a>
+                    </li>
+                    <li class="sub_menu-item">
+                      <a href="#" class="sub_menu-link">جزییات وبلاگ</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link">صفحات</a>
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link">تماس با ما</a>
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link">شعب</a>
+                </li>
+              </ul>
+              <div class="navbar-btn">
+                <a href="" class="color-white"
+                  ><i class="fa-solid fa-cart-shopping"></i>اکنون سفارش دهید</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="page-information">
+        <div class="container">
+          <div class="personal-information">
+            <div class="personal-information__wrapper">
+              <h1 class="personal-information__title">اطلاعات شخصی</h1>
+              <span class="pages">
+                <span>
+                  <i class="fa-solid fa-house"></i>
+                  <a href="../index.html">صفحه اصلی</a href="../index.html">
+                </span>
+                <span>
+                  <i class="fa-solid fa-angle-left"></i>
+                  <span>حساب من</span>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="dates" id="dates">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="right-dashboard">
+              <div class="right-dashboard__wrapper">
+                <div class="right-dashboard__profile">
+                  <div class="profile-wrapper">
+                    <div class="profile-img">
+                      <img
+                        src="../images/dashboard_user_img.png"
+                        class="profile__image"
+                      />
+                    </div>
+                    <div class="profile-icon">
+                      <i class="fa-solid fa-camera"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6>امیرحسین کیوانی</h6>
+                    <p>ایران،اصفهان</p>
+                  </div>
+                </div>
+                <div class="right-data__links">
+                  <a href="#dates" class="right-data__link right-data__link--active" data-content-id="#personalInformation">
+                    <span>
+                      <i class="fa-regular fa-user"></i>
+                      اطلاعات شخصی
+                    </span>
+                    <i class="fa-solid fa-caret-left"></i>
+                  </a>
+                  <a href="#dates" class="right-data__link"data-content-id="#address">
+                    <span>
+                      <i class="fa-solid fa-address-card"></i>
+                      نشانی
+                    </span>
+                    <i class="fa-solid fa-caret-left"></i>
+                  </a>
+                  <a href="#dates" class="right-data__link" data-content-id="#order">
+                    <span>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      سفارش
+                    </span>
+                    <i class="fa-solid fa-caret-left"></i>
+                  </a>
+                  <a href="#dates" class="right-data__link">
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      بررسی ها
+                    </span>
+                    <i class="fa-solid fa-caret-left"></i>
+                  </a>
+                  <a href="#dates" class="right-data__link">
+                    <span>
+                      <i class="fa-solid fa-heart"></i>
+                      علاقه مندی ها
+                    </span>
+                    <i class="fa-solid fa-caret-left"></i>
+                  </a>
+                  <a href="#dates" class="right-data__link">
+                    <span>
+                      <i class="fa-solid fa-key"></i>
+                      تغییر رمز عبور
+                    </span>
+                    <i class="fa-solid fa-caret-left"></i>
+                  </a>
+                  <a href="../index.html" class="right-data__link">
+                    <span>
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      خروج
+                    </span>
+                    <i class="fa-solid fa-caret-left"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="left-dashboard left-dashboard--active" id="personalInformation">
+            <div class="left-dashboard__info">
+              <span class="welcome-user">سلام امیرحسین کیوانی عزیز</span>
+              <h2 class="userInfo">اطلاعات شخصی شما</h2>
+            </div>
+            <div class="orders">
+              <div class="order">
+                <div class="order__img">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div class="order__count">
+                  <h6 class="order__count-number">1</h6>
+                  <p class="order__count-title">سفارش فعال</p>
+                </div>
+              </div>
+              <div class="order">
+                <div class="order__img">
+                  <i class="fa-solid fa-square-check"></i>
+                </div>
+                <div class="order__count">
+                  <h6 class="order__count-number">499</h6>
+                  <p>سفارش تکمیل شده</p>
+                </div>
+              </div>
+              <div class="order">
+                <div class="order__img">
+                  <i class="fa-solid fa-list-check"></i>
+                </div>
+                <div class="order__count">
+                  <h6 class="order__count-number">500</h6>
+                  <p>کل سفارش ها</p>
+                </div>
+              </div>
+            </div>
+            <div class="profile-data">
+              <div class="profile-data__title">
+                <h5 class="profile-data__info">اطلاعات شخصی</h5>
+                <a href="#" class="profile-data__link">ویرایش کنید</a>
+              </div>
+              <div class="user-info">
+                <ul class="user-info-items">
+                  <li>
+                    <span>نام:</span>
+                    امیرحسین کیوانی
+                  </li>
+                  <li>
+                    <span>پست الکترونیک:</span>
+                    amirhosein8292@gmail.com
+                  </li>
+                  <li>
+                    <span>تلفن:</span>
+                    09162035987
+                  </li>
+                  <li>
+                    <span>کشور:</span>
+                    ایران
+                  </li>
+                  <li>
+                    <span>شهر:</span>
+                    اصفهان
+                  </li>
+                  <li>
+                    <span>نشانی:</span>
+                    ایران،اصفهان،خیابان فردوسی،پلاک۱۳،واحد ۱۹
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="left-dashboard" id="address">
+            <div class="left-dashboard__info">
+              
+              <h2 class="userInfo">آدرس های شما</h2>
+            </div>
+        <div class="addresses">
+          <div class="add-address">
+            <h3 class="add-address__title">آدرس ها</h3>
+            <a href="#" class="add-addres__link">              
+              <i class="fa-solid fa-location-dot"></i>
+              ثبت آدرس جدید
+            </a>
+          </div>
+          <div class="address-one">
+            <div class="address-info">
+              <ul>
+                <li>
+                  <span>خیابان فردوسی،فرعی۶،پلاک۱۲</span>
+              </li>
+              <li>
+              <span>اصفهان</span>
+              </li>
+              <li>
+              <span>amirhosein8292@gmail.com</span>
+              </li>
+              <li>
+                <span>09162035987</span>
+              </li>
+              <li>
+                <span>امیرحسین کیوانی</span>
+              </li>
+            </ul>
+            </div>
+            <div class="address-location">
+              <div class="edit-address">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="location-img">
+                <img src="../images/map-img.avif"class="location-image">
+              </div>
+            </div>
+          </div>
+          <div class="address-one">
+            <div class="address-info">
+              <ul>
+                <li>
+                  <span>خیابان فردوسی،فرعی۶،پلاک۱۲</span>
+              </li>
+              <li>
+              <span>اصفهان</span>
+              </li>
+              <li>
+              <span>amirhosein8292@gmail.com</span>
+              </li>
+              <li>
+                <span>09162035987</span>
+              </li>
+              <li>
+                <span>امیرحسین کیوانی</span>
+              </li>
+            </ul>
+            </div>
+            <div class="address-location">
+              <div class="edit-address">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="location-img">
+                <img src="../images/map-img.avif"class="location-image">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+          </div>
+          <div class="left-dashboard" id="order">
+            <div class="left-dashboard__info">
+              <span class="welcome-user">سلام امیرحسین کیوانی عزیز</span>
+              <h2 class="userInfo">سفارش های شما</h2>
+            </div>
+            <div><!----></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="contact-us">
+        <div class="contact-us__wrapper">
+          <div class="contact-us__item">
+            <div class="contact-us__img">
+              <img src="../images/call_icon.png" class="contact-us__image" />
+            </div>
+            <div class="contactus__detail">
+              <h6>شماره تماس:</h6>
+              <p>03124536252</p>
+            </div>
+          </div>
+          <div class="contact-us__item">
+            <div class="contact-us__img">
+              <img src="../images/clock_icon.png" class="contact-us__image" />
+            </div>
+            <div class="contactus__detail">
+              <h6>ساعات کاری :</h6>
+              <p>9:00 صبح تا 12:30 بعد از ظهر</p>
+            </div>
+          </div>
+          <div class="contact-us__item contact-us__item3">
+            <div class="contact-us__img">
+              <img src="../images/mail_icon.png" class="contact-us__image" />
+            </div>
+            <div class="contactus__detail">
+              <h6>به ما ایمیل بزنید:</h6>
+              <p>info@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-links-wrapper">
+        <div class="footer-links">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-4 footer-link__one">
+                <div class="col-link">
+                  <a href=""><img src="../images/logo (1).png" alt="" /></a>
+                  <p>
+                    فردا حادثه فئودیست لوبوتیدها تیرهای توپ فوتبال را می سازد.
+                  </p>
+                  <div class="footer-link__icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-sm-6 col-md-4 col-12 footer-link__two">
+                <div class="col-link">
+                  <h5>خدمات ما</h5>
+                  <ul>
+                    <li><a href="">تحویل سریع</a></li>
+                    <li><a href="">غذاهای وگان</a></li>
+                    <li><a href="">محصولات تازه</a></li>
+                    <li><a href="">سرآشپزهای ماهر</a></li>
+                    <li><a href="">قهوه عالی</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-sm-6 col-md-4 col-12 footer-link__three">
+                <div class="col-link">
+                  <h5>لینک مفید</h5>
+                  <ul>
+                    <li><a href="">وبلاگ ها</a></li>
+                    <li><a href="">درباره ما</a></li>
+                    <li><a href="">پروژه ها</a></li>
+                    <li><a href="">صفحات</a></li>
+                    <li><a href="">شعب</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-9 col-12 footer-link__four">
+                <div class="col-link">
+                  <h5>پست آخر</h5>
+                  <div class="last-post">
+                    <div>
+                      <div>
+                        <img src="../images/footer_post_img_1.jpg" alt="" />
+                      </div>
+                      <div class="lefting">
+                        <h6>۲۴ خرداد ۱۴۰۲</h6>
+                        <span>شگفتی های آشپزی تایلندی</span>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <img src="../images/footer_post_img_2.jpg" alt="" />
+                      </div>
+                      <div class="lefting">
+                        <h6>۱۲ خرداد ۱۴۰۰</h6>
+                        <span>بهترین فست فودها</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../scripts/myaccount.js"></script>
+  </body>
+</html>

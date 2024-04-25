@@ -1,0 +1,260 @@
+@import "../styles/grid.css";
+@import "../styles/fonts.css";
+.main {
+  background-image: var(--myaccount-bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar-brand {
+  background-color: transparent;
+}
+.personal-information__title {
+  color: black;
+  font-size: 50px;
+  font-weight: 500;
+}
+.pages {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 24%;
+  color: black;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.pages a {
+  color: black;
+}
+.personal-information {
+  height: 35rem;
+}
+.personal-information__wrapper {
+  padding: 0 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+/* dates : */
+.dates {
+  background-color: var(--white-color);
+  padding: 12rem 0;
+}
+.right-dashboard {
+  height: 81rem;
+}
+.right-dashboard__wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-dashboard__profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--pink-color-myaccount-page);
+  border-radius: 2.5rem;
+  width: 100%;
+  color: black;
+  height: 30rem;
+}
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 6px solid white;
+  border-radius: 50%;
+  width: 150px;
+}
+.profile-img {
+  height: 100%;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-icon {
+  color: black;
+  position: absolute;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -21px;
+  bottom: 17px;
+}
+.profile-icon i {
+  font-size: 20px;
+}
+.right-data__links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-data__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  border: 1px solid gray;
+  color: black;
+}
+.right-data__link--active {
+  border: 1px solid red;
+  color: red;
+}
+.left-dashboard {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.left-dashboard--active {
+  height: auto;
+  visibility: visible;
+  opacity: 1;
+}
+
+.orders {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+.order {
+  width: 30%;
+  border-radius: 1rem;
+  background-color: var(--pink-color-myaccount-page);
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: black;
+  align-items: center;
+}
+.order__count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.order__img {
+  width: 80px;
+  height: 80px;
+  background-color: var(--orange-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+.order__img i {
+  font-size: 30px;
+}
+.profile-data {
+  color: black;
+  margin-top: 3rem;
+  background-color: var(--pink-color-myaccount-page);
+  padding: 4rem 3rem;
+  border-radius: 2rem;
+}
+.profile-data__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.profile-data__link {
+  background-color: var(--red-color);
+  border-radius: 0.8rem;
+  color: white;
+}
+.profile-data__info {
+  font-size: 25px;
+  font-weight: 600;
+}
+.user-info {
+  padding: 2rem 0;
+}
+.user-info-items li span {
+  display: inline-block;
+  width: 15rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+.user-info-items li {
+  padding-top: 1rem;
+}
+.welcome-user {
+  font-size: 15px;
+  font-weight: 300;
+}
+.userInfo {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.order__count-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* address : */
+.addresses {
+  display: flex;
+  flex-direction: column;
+}
+.add-address {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding-top: 2rem;
+}
+.add-address__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.add-addres__link {
+  padding: 0.8rem;
+  background-color: var(--red-color);
+  color: var(--white-color);
+  border-radius: 3px;
+}
+.address-one {
+  display: flex;
+  justify-content: space-between;
+  border: 0.3px solid red;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 4rem 3rem;
+  margin-top: 4rem;
+}
+.location-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.location-image {
+  width: 100%;
+  height: 100%;
+}
+.address-location {
+  text-align: end;
+}
+.edit-address i {
+  cursor: pointer;
+}

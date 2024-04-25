@@ -1,0 +1,472 @@
+@media screen and (min-width: 1401px) {
+  .app-info__title {
+    font-size: 3.6rem;
+  }
+}
+@media screen and (max-width: 1401px) {
+  .banner__img {
+    width: 550px;
+    height: 570px;
+  }
+  .navbar-collapse {
+    min-width: 90rem;
+  }
+  .up a::before {
+    content: "";
+    position: absolute;
+    width: 16rem;
+    right: 16rem;
+  }
+  .blog-description {
+    width: 65%;
+  }
+  .contact-us {
+    width: 111rem;
+  }
+  /* my accoun page : */
+  .main {
+    background-position: left;
+  }
+  .pages {
+    width: 28%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar-wrapper {
+    justify-content: space-around;
+  }
+  .navbar-collapse {
+    min-width: 82rem;
+  }
+  .nav__link {
+    font-size: 1.5rem;
+  }
+  .banner__title {
+    font-size: 4.2rem;
+  }
+  .banner__img {
+    width: 487px;
+    height: 516px;
+  }
+  .Popularfoods__title {
+    font-size: 2rem;
+  }
+  .section-head__title {
+    font-size: 4rem;
+  }
+  .up a {
+    font-size: 14px;
+  }
+  .up a::before {
+    width: 13rem;
+    right: 11rem;
+  }
+  .app-info__title {
+    font-size: 2rem;
+  }
+  .contact-us {
+    width: 99rem;
+  }
+  /* my accoun page : */
+  .pages {
+    width: 39%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-collapse {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 100%;
+    right: 0;
+    left: 0;
+    height: 0px;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+    min-width: auto;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+  }
+  .navbar-collapse--open {
+    height: 40rem; /*add with js*/
+    position: absolute;
+    background-color: #f2a22a;
+    border-radius: 1rem;
+  }
+  .nav-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: orange;
+    font-size: 16px;
+    transition: all linear 0.3s;
+    border-radius: 10px;
+  }
+  .navbar-wrapper {
+    justify-content: space-between;
+    position: relative;
+  }
+  .navbar-links {
+    flex-direction: column;
+  }
+  .nav__item {
+    margin-top: 2rem;
+  }
+  .navbar-btn {
+    margin-top: 2rem;
+  }
+  .sub_menu {
+    background-color: #ab162c;
+    z-index: 100;
+  }
+  .banner {
+    padding-top: 1rem;
+  }
+  .banner__link {
+    margin-top: 4rem;
+  }
+  .banner__img {
+    width: 630px;
+    height: 516px;
+  }
+  .up a {
+    font-size: 2rem;
+  }
+  .up a::before {
+    width: 26rem;
+    right: 16rem;
+  }
+  .mt-3rem {
+    margin-top: -3rem;
+  }
+  .app-download {
+    padding: 0;
+  }
+  .packages {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .contact-us {
+    width: 68rem;
+  }
+  .contact-us__item {
+    padding: 4rem 2rem;
+  }
+  .footer-links-wrapper {
+    height: 100vh;
+  }
+  .contactus__detail {
+    padding-right: 1rem;
+  }
+  /* my account page : */
+  .orders {
+    flex-direction: column;
+  }
+  .order {
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .user-info-items li span {
+    display: block;
+  }
+  .pages {
+    width: 58%;
+  }
+  /* menu page : */
+  .display-none {
+    display: none;
+  }
+  .right-little__menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: initial;
+  }
+  .header__right {
+    display: none;
+  }
+  .header__left {
+    justify-content: center;
+  }
+  .change-theme {
+    margin-left: 4rem;
+  }
+  .navbar {
+    margin-top: 3rem;
+  }
+  .banner__img {
+    width: 450px;
+    height: auto;
+  }
+  .Popularfoods__title {
+    font-size: 1.7rem;
+  }
+  .item-food {
+    width: 44rem;
+  }
+  .up a {
+    font-size: 16px;
+  }
+  .up a::before {
+    width: 13rem;
+    right: 12rem;
+  }
+  .blog-description {
+    width: 45%;
+  }
+  .col-link {
+    align-items: center;
+  }
+  .footer-links {
+    top: 23rem;
+  }
+  .contact-us__wrapper {
+    flex-direction: column;
+  }
+  .contact-us {
+    width: 55rem;
+    top: -17rem;
+  }
+  .contact-us__item {
+    width: 100%;
+  }
+  .contact-us__item:not(.contact-us__item3):after {
+    width: 0;
+  }
+  .section-head__title {
+    font-size: 3rem;
+  }
+  .chef {
+    height: 33rem;
+  }
+  .chef__img img {
+    height: 100%;
+  }
+  .chef__info {
+    justify-content: space-around;
+  }
+  .footer-links-wrapper {
+    height: 130vh;
+  }
+  /* my account page : */
+  .personal-information__wrapper {
+    padding: 0 7rem;
+  }
+  .pages {
+    width: 73%;
+  }
+  .dates {
+    padding: 7rem 0 16rem 0;
+  }
+  /* menu page : */
+  .menu-infos {
+    padding: 20rem 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner__img {
+    width: auto;
+    height: auto;
+  }
+  .delicious-items {
+    border: none;
+  }
+  .delicious-item {
+    margin-top: 2.5rem;
+  }
+  .item-food {
+    width: 34rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .up a::before {
+    width: 6rem;
+    right: 11rem;
+  }
+  .item-food__img img {
+    width: 8rem;
+    height: 8rem;
+  }
+  .see-menus {
+    padding: 1.1rem 2.1rem;
+    border-radius: 3rem;
+    width: 21rem;
+  }
+  .app-download {
+    padding: 2rem 1rem;
+  }
+  .package-one__title {
+    font-size: 2rem;
+  }
+  .package-two__title {
+    font-size: 2rem;
+  }
+  .package-three__title {
+    font-size: 2rem;
+  }
+  .package-four__title {
+    font-size: 2rem;
+  }
+  .blog-description {
+    width: 55%;
+  }
+  .contact-us {
+    width: 37rem;
+    top: -15rem;
+  }
+  .footer-links {
+    top: 27rem;
+  }
+  .footer-links-wrapper {
+    height: 170vh;
+  }
+  .section-head__title {
+    font-size: 3rem;
+  }
+  .chef {
+    height: 66rem;
+  }
+  .chef__img img {
+    height: 100%;
+  }
+  .chef__info {
+    justify-content: space-around;
+  }
+  .see-menus {
+    width: 24rem;
+  }
+  .up a::before {
+    width: 4rem;
+    top: 1.2rem;
+    right: 12rem;
+  }
+  /* my account page */
+  .personal-information__wrapper {
+    padding: 0 4rem;
+  }
+  .personal-information__title {
+    font-size: 34px;
+  }
+  .pages {
+    width: 90%;
+  }
+  .dates {
+    padding: 5rem 0 16rem 0;
+  }
+  .address-info {
+    font-size: 13px;
+    padding: 3rem 0;
+  }
+  .location-img {
+    width: 83px;
+    height: 83px;
+  }
+  /* menu page */
+  .menu-food {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 394px) {
+  .menu__item {
+    padding-left: 0;
+  }
+  .item-food {
+    width: 31rem;
+  }
+  .up a,
+  .up p {
+    font-size: 13px;
+  }
+  .up a::before {
+    width: 5rem;
+    top: 1rem;
+    right: 10rem;
+  }
+  .down p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .app-download {
+    background-size: cover;
+    padding: 0;
+    background-repeat: no-repeat;
+  }
+  .banner__info-2 {
+    padding: 5px 3px 5px 30px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  .app-info__title {
+    font-size: 1rem;
+  }
+
+  .app-info__link1,
+  .app-info__link2 {
+    font-size: 1rem;
+    padding: 0.7rem 0.6rem;
+  }
+  .section-head__title {
+    font-size: 2.3rem;
+  }
+  .blog-description {
+    width: 70%;
+  }
+
+  .chef {
+    height: 46rem;
+  }
+  .chef__img img {
+    height: 100%;
+  }
+  .chef__info {
+    justify-content: space-around;
+  }
+
+  .footer-links-wrapper {
+    height: 185vh;
+  }
+
+  .footer-links {
+    top: 28rem;
+  }
+  /* myaccount page : */
+  .personal-information__title {
+    font-size: 36px;
+  }
+  .pages {
+    width: 93%;
+  }
+  .personal-information__wrapper {
+    padding: 0 4rem;
+  }
+  .dates {
+    padding: 6rem 0 16rem 0;
+  }
+  .orders {
+    flex-direction: column;
+  }
+  .order {
+    width: 100%;
+    margin: 2px;
+  }
+  .profile-data__info {
+    font-size: 19px;
+  }
+  .profile-data__link {
+    font-size: 12px;
+  }
+  .user-info-items li span {
+    display: block;
+  }
+}
